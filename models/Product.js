@@ -37,7 +37,7 @@ Product.init(
       }
     },
     category_id: {
-      ytpe: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
         model: Category,
         key: 'id',
